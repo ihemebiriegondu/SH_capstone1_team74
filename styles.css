@@ -1,0 +1,51 @@
+.section-1{
+    background-color: hsl(218, 28%, 13%);
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 200px 135px 100px 135px;
+}
+
+.semi-section-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.semi-section-2{
+    padding: 0 80px 100px 80px;
+}
+
+.section-1-images{
+    padding-bottom: 50px;
+
+}
+
+.section-1-head{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.section-1-para{
+    padding: 0 15px 0 20px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .section-1{
+        padding: 200px 50px 100px 50px;
+    }
+
+    .semi-section-1{
+        display: inline;
+    }
+        
+    .semi-section-2{
+        padding-bottom: 100px;
+    }
+
+}
+
+
+
+
