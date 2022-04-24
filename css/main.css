@@ -54,6 +54,7 @@ body {
    opacity: 0.8;
    cursor: pointer;
  }
+ 
 
  @media screen and (min-width: 720px){
    .header{
